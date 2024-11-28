@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Fare</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <label for="">From</label>
+    <select id="source-station">
+        <option value="Indore">Indore</option>
+        <option value="Sehore">Sehore</option>
+        <option value="Bhopal">Bhopal</option>
+    </select>
+    
+    
+    <label for="">To</label>
+    <select id="destination-station" >
+        <option value="Indore">Indore</option>
+        <option value="Sehore">Sehore</option>
+        <option value="Bhopal">Bhopal</option>
+    </select>
+    
+    
+    <button id="search-btn">Search</button>
+    
+    <div>Source: <span id="output-source"></span></div>
+    <div>Destination: <span id="output-destination"></span></div>
+    <div>Fare: <span id="output-fare"></span></div>
+    
+    
+    <script src="./index.js"></script>
+</body>
+</html>

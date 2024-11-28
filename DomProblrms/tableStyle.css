@@ -1,0 +1,10 @@
+.table{
+
+    border-collapse: collapse;
+    width: 100%;
+
+} 
+.title-btn{
+    background-color: red;
+    color:white;
+}

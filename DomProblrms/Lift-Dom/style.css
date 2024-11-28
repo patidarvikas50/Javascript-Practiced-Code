@@ -1,0 +1,63 @@
+.label-building{
+  margin-left: 500px;
+  color: rgb(38, 38, 149);
+}
+
+  .building {
+    width: 200px;
+    height: 400px;
+    background-color: #ccc;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+   
+  }
+
+ 
+  .lift-card {
+    width: 60px;
+    height: 60px;
+    background-color: #db8d34;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.7s ease-in-out;
+  
+  }
+ 
+.floor-line {
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+  position: absolute;
+}
+
+#floor-line-1 {
+  top: 15%;
+}
+
+#floor-line-2 {
+  top: 30%;
+}
+
+#floor-line-3 {
+  top: 47%;
+  
+}
+
+#floor-line-4 {
+  top: 65%;
+}
+
+#floor-line-5 {
+  top: 83%;
+}
+
+#floor-line-6 {
+  top: 100%;
+}

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#road {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #2ecc71; /* Green road color */
+}
+
+#car {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  width: 50px;
+  height: 30px;
+  background-color: #3498db; /* Blue car color */
+  transition: transform 0.5s; /* Smooth transition for turning */
+}

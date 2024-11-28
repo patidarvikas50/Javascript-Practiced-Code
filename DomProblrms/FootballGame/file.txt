@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset Div Value Game</title>
+  <style>
+    #game-container {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 200px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    #try-again-btn {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="game-container" onclick="updateValue()">Click Me!</div>
+<button id="try-again-btn" onclick="tryAgain()">Try Again</button>
+
+<script>
+  // Initial value for the div
+  let divValue = 0;
+
+  // Function to update the value of the div
+  function updateValue() {
+    divValue++;
+    document.getElementById('game-container').innerText = divValue;
+  }
+
+  // Function to reset the value of the div
+  function tryAgain() {
+    divValue = 0;
+    document.getElementById('game-container').innerText = divValue;
+  }
+</script>
+
+</body>
+</html>
